@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Migong">
+    <output-path>$PROJECT_DIR$/out/artifacts/Migong</output-path>
+    <root id="archive" name="Migong.jar">
+      <element id="module-output" name="Migong" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

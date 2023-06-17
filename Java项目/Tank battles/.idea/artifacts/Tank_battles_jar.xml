@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tank battles:jar">
+    <output-path>$PROJECT_DIR$/../../../Java程序/坦克大战</output-path>
+    <root id="archive" name="Tank battles.jar">
+      <element id="module-output" name="Tank battles" />
+    </root>
+  </artifact>
+</component>
