@@ -1,0 +1,75 @@
+一、快慢指针mid
+
+1.判断链表中是否有环
+  设快慢双指针同时从head节点移动，每次fast指针多移动一步，若二者相遇，则说明有环。
+	boolean hasCycle(ListNode head) {
+    	    ListNode fast, slow;
+  	    fast = slow = head;
+    	    while (fast != null && fast.next != null) {	
+        	fast = fast.next.next;
+        	slow = slow.next;
+        	if (fast == slow) return true;
+    	    }
+    	    return false;
+	}
+
+2.若链表有环，返回环在链表中的起点
+  设环长度为len，head到起点距离s,二者均从head起步,vfast=2vslow当二者相遇时，fast指针移动距离a，slow指针移动距离b；使slow指针返回head重新起步，vfast=vslow，当二者再次相遇时所在节点即为起点。
+  证明：a-b=len，a=2b =>b=len;slow在环中移动的距离为b-s=len-s，二者初次相遇节点距环起点len-(len-s)=s；slow回到head后，距离环起点仍为s，故当二者再次相遇时，即移动s，在环起点相遇。
+	ListNode detectCycle(ListNode head) {
+    	    ListNode fast, slow;
+    	    fast = slow = head;
+    	    while (fast != null && fast.next != null) {
+        	fast = fast.next.next;
+       		slow = slow.next;
+        	if (fast == slow) break;
+    	    }
+    	    // 上面的代码类似 hasCycle 函数
+    	    slow = head;
+    	    while (slow != fast) {
+        	fast = fast.next;
+        	slow = slow.next;
+    	    }
+    	    return slow;
+	}
+
+3.寻找链表的倒数第k个节点
+  首先让fast移动k步,然后二者同步移动,当fast指向null时,slow即指向倒数第k个节点;
+  tips:当需要返回删除某节点的head时,可以新建temp节点指向head,使slow从temp开始移动,方便删除节点.
+	while(k-->0){
+	    fast=fast.next;
+	}
+	while (fast != null ) {
+    	    fast = fast.next;
+    	    slow = slow.next;
+	}
+	// slow 就在倒数第k个节点
+	return slow;
+
+二、左右指针
+
+1.二分查找
+  左右指针用于缩小边界范围
+
+2.两数之和
+  对于一个有序数组(以升序为例)而言,left指向最左,right指向最右,当left右移时,两数和一定增大,right左移时,两数和一定减小;通过该特性,可以判断是否有某特定和,或是找到特点和对应的两数.
+
+3.反转顺序表
+  通过一首一尾两指针,不断交换二者对应元素,则可倒置整个顺序表.
+
+4.滑动窗口
+  左右指针分别代表窗口左右边界,通过移动指针来滑动窗口,类似双端队列.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

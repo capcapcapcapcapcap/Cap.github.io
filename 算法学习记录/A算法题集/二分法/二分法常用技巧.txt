@@ -1,0 +1,32 @@
+一、mid计算
+  
+1.mid=(left+right)/2;
+  适用:left>=0,right>=0,left+right无溢出.
+    可能出现的问题:(1)left+right溢出 (2)负数情况下向0取整(向上取
+    整)
+
+2.mid=left+(right-left)/2;
+  适用:right-left无溢出
+  可能出现问题:若left和right均为大数,且一正一负,则right-left可能溢出.
+
+3.mid=(left+right)>>1
+  适用:left+right无溢出.
+  可能出现问题:若left和right均为大数,left+right可能溢出.
+
+4.综合来看,mid=(left+right)>>1更好.
+
+二、mid的取值
+
+1.左中位数:mid=(left+right)>>1,向下取整,靠近left,查找后继.
+  
+2.右中位数:mid=(left+right+1)>>1,向上取整,靠近right,查找前驱
+	
+3.最大值最小化:当已经找到一个target时,若需要找到更小或更靠左的target,则使用左中位数;
+  最小值最大化:当已经找到一个target时,若需要找到更大或更靠右的target,则使用右中位数;
+
+
+
+
+
+
+
