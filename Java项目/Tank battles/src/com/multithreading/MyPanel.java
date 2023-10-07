@@ -47,7 +47,7 @@ public class MyPanel extends JPanel implements Runnable, KeyListener {
             }
         if(Recorder.remain()==0)
         {
-            g.drawImage(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\8.jpg"),0,200,Window.WIDTH,200,this);
+            g.drawImage(Toolkit.getDefaultToolkit().getImage("src/com/图片/8.jpg"),0,200,Window.WIDTH,200,this);
         }
     }
 

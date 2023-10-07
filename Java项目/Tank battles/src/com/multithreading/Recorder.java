@@ -11,7 +11,7 @@ import static com.multithreading.Database.*;
  * @version 1.0
  */
 public class Recorder {
-    public static File file = new File("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\Archive");
+    public static File file = new File("src/Archive");
     public static ObjectOutputStream writer = null;
     public static ObjectInputStream reader = null;
     static Font font1=new Font("楷体", Font.BOLD, 25);

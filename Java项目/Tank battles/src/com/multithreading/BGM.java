@@ -8,7 +8,7 @@ import java.io.File;
  * @version 1.0
  */
 public class BGM extends Thread {
-    File file1 = new File("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\GMRemix-坦克大战-疯狂轰炸.wav");
+    File file1 = new File("src/GMRemix-坦克大战-疯狂轰炸.wav");
 
     @Override
     public void run()

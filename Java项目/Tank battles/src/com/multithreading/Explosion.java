@@ -55,29 +55,29 @@ public class Explosion {
     }
 
     {
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\1.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/1.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\1.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/1.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\2.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/2.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\2.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/2.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\3.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/3.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\3.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/3.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\4.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/4.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\4.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/4.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\5.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/5.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\5.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/5.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\6.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/6.png"));
         time++;
-        images.add(Toolkit.getDefaultToolkit().getImage("D:\\IntelliJ IDEA 2022.2.3\\Java项目\\Tank battles\\src\\com\\图片\\6.png"));
+        images.add(Toolkit.getDefaultToolkit().getImage("src/com/图片/6.png"));
         time++;
 
     }
